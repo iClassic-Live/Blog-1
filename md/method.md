@@ -1,0 +1,42 @@
+*  数组方法（改变原数组的高亮显示）
+    * `push()：将一个或者多个元素添加到数组末尾`
+    * `unshift()：将一个或者多个元素添加到数组开头`
+    * `pop()：删除最后一个元素`
+    * `shift()：删除第一个元素`
+    * `sort()：数组排序，a-b为升序，b-a为降序，没有参数则按字母表排序`
+    * indexOf()：从头搜索整个数组中具有给定值的元素，返回找到第一个元素的索引
+    * lastindexOf()：从尾部搜索给定值
+    * concat()：合并数组，并返回一个新数组
+    * slice()：返回数组的一个片段或子数组，两个参数分别为开始和结束的位置，一个参数则是从开始截取到末尾(-1代表最后一个元素)  
+    * `splice(index，count，ele)：可进行增删改，参数1为开始下标，参数2为要截取的总数，为0则是增，参数3若为空则为删`
+    * `reverse() 数组倒置`
+    * `join("")：以""内元素将数组拼接为字符串`
+    * every()：经传递方法判断后，全为true，则返回true
+    * some()：经传递方法判断后，有一个为true，则返回true
+    * map()：将调用数组的每个元素传递给指定的函数，并返回一个数组
+    * `foreach()：将调用数组的每个元素传递给指定的函数，改变原数组`
+    * filter()：过滤器，将传递函数判断为true的元素
+    * reduce()：使用指定函数将数组元素进行组合
+    * reduceRight()：使用指定函数将数组元素进行组合
+    * `toString()：将数组每个元素转化为字符串`
+    <br>
+
+* 对象(object)方法
+    * hasOwnProperty()：检查对象这个属性是否来自继承
+    * isProrotypeOf()：检查当前对象是不是指定对象原型
+    * propertyIsEnumberable()：检查该属性是否存在且可以用for/in循环枚举
+    * toString()：返回该对象的一个字符表示
+    * valueOf()：返回当前对象的原始值<br>对象静态方法：<br>
+    * object.create()：使用指定原型及属性创建一个新对象
+    * object.defineProperties()：创建或配置指定对象的一个或多个属性
+    * object.defineProperty()：创建或配置指定对象的某个属性
+    * object.freeze()：将指定对象设置为不可改变
+    * object.isfrozen：检查当前对象是否已冻结
+    * object.getOwnPropertyDesciptor()：查询指定对象的指定属性的特性
+    * object.getOwnPropertyNames()：返回一个包含指定对象的所有非继承属性名的数组
+    * object.getPrototypeOf()：返回指定对象的原型
+    * object.seal()：阻止向指定对象添加新属性或删除现有属性
+    * object.isSealed()：检查指定对象是否封闭
+    * object.keys()：返回一个包含指定对象的所有非继承可枚举属性名的数组
+    * object.preventExtensions()：阻止向指定对象添加新的属性
+    * object.isExtensible()：检查当前对象能否添加进新的属性
