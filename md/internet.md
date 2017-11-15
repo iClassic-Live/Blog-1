@@ -1,4 +1,4 @@
-* [浅谈AJAX](https://github.com/Meng823/Test-Blog/blob/master/md/ajax.md)
+* [浅谈AJAX](https://github.com/Meng823/Blog/blob/master/md/ajax.md)
 <br>
 
 * 同源策略：浏览器最核心也最基本的安全功能，同源就是域名，协议名，端口号都相同；<br>

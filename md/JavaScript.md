@@ -87,10 +87,10 @@
     * Array.prototype.splice.call(arrayLink, 0), 返回一个新数组，但是会删掉原对象的值。
 <br>
 
-* 数组及对象的方法　=>　[传送门](https://github.com/Meng823/Test-Blog/blob/master/md/method.md)
+* 数组及对象的方法　=>　[传送门](https://github.com/Meng823/Blog/blob/master/md/method.md)
 <br>
 
-* 继承的方式　=>　[传送门](https://github.com/Meng823/Test-Blog/blob/master/md/inherit.md)
+* 继承的方式　=>　[传送门](https://github.com/Meng823/Blog/blob/master/md/inherit.md)
 <br>
 
 * 闭包与作用域
@@ -138,10 +138,10 @@
     <br>1.当defer和async同时存在时，忽略defer，以async的方式调用，
     <br>2.defer和async在网络加载过程是一致，都是异步执行的；
     <br>3.defer更符合大多数场景对应用脚本加载和执行的要求；
-    ![](https://github.com/Meng823/Test-Blog/blob/master/img/script.jpg)
+    ![](https://github.com/Meng823/Blog/blob/master/img/script.jpg)
 <br>
    
-* [下一篇：网络相关知识点](https://github.com/Meng823/Test-Blog/blob/master/md/internet.md)
+* [下一篇：网络相关知识点](https://github.com/Meng823/Blog/blob/master/md/internet.md)
 <br>
 
 ...持续更新中，莫急莫慌...

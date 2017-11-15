@@ -36,8 +36,8 @@
     <br>
 
 * 盒模型<br>
-    ![](https://github.com/Meng823/Test-Blog/blob/master/img/borderbox.png)
-    ![](https://github.com/Meng823/Test-Blog/blob/master/img/contentbox.png)
+    ![](https://github.com/Meng823/Blog/blob/master/img/borderbox.png)
+    ![](https://github.com/Meng823/Blog/blob/master/img/contentbox.png)
     <br>
 
 * 层模型<br>
