@@ -9,9 +9,9 @@ Meng - Blog
 
 知识点总结
 -------
-[HTML知识点(更新完善中)](https://github.com/Meng823/Test-Blog/blob/master/md/html_css.md)<br>
-[JavaScript知识点（更新完善中）](https://github.com/Meng823/Test-Blog/blob/master/md/JavaScript.md)<br>
-[JS网络知识点（更新完善中）](https://github.com/Meng823/Test-Blog/blob/master/md/internet.md)<br>
+[HTML知识点(更新完善中)](https://github.com/Meng823/Blog/blob/master/md/html_css.md)<br>
+[JavaScript知识点（更新完善中）](https://github.com/Meng823/Blog/blob/master/md/JavaScript.md)<br>
+[JS网络知识点（更新完善中）](https://github.com/Meng823/Blog/blob/master/md/internet.md)<br>
 [ES6知识点(还没来得及写)]()<br>
 [Vue知识点(还没来得及写)]()<br>
-[Cocos学习笔记(初学者，发现错误还请指正)](https://github.com/Meng823/Test-Blog/blob/master/md/cocos.md)<br>
+[Cocos学习笔记(初学者，发现错误还请指正)](https://github.com/Meng823/Blog/blob/master/md/cocos.md)<br>
