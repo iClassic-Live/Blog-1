@@ -2,7 +2,7 @@
 ```javascript
   function jsonp(url, value, Callback) {
     var hasParams = url.indexOf('?');
-    url += hasParams ? '&' : '?' + value +'callback=' + Callback;
+    url += hasParams ? '&' : '?' + value +'callback=' + Callback + new Date().getTime();
     var oScript = document.createElement('script')
     oScript.setAttribute('src', url)
     document.body.appendChild(oScript);
