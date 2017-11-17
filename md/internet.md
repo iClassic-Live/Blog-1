@@ -85,7 +85,7 @@
 
 
 * 常用跨域方式
-    * [jsonp](https://github.com/Meng823/Test-Blog/blob/master/md/jsonp.md)：
+    * [jsonp](https://github.com/Meng823/Blog/blob/master/md/jsonp.md)：
     由于script的src属性不受同源策略影响。可以把资源直接放到src中，以json的形式把数据放到了服务器上 
     * document.domain + iframe：只有在主域相同而子域不同的情况下这种方式才可以使用。
     * window.name + iframe：主页面有一个iframe，通过修改子页面的window.name让主页面获取到这个值。
