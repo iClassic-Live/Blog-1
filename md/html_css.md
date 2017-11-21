@@ -1,4 +1,4 @@
-## HTML+CSS
+# HTML+CSS
 * HTML、XML和XHTML的联系与区别
     * 定义：都是标准通用标记语言的一个子集。
         * HTML被设计用来显示数据，其焦点是数据的外观
@@ -69,7 +69,7 @@
     * em：相对长度单位，相对当前对象的文本字体尺寸，没有设置则相对浏览器默认字体尺寸，em会继承父级字体大小
     * rem：相对长度单位，相对于html根元素，一般html的font-size为10px
     * px：相对于显示其屏幕分辨率，苹果的retina屏幕一个单位大概有两像素点
-    <br>
+<br>
 
 * display:none和visible:hidden的区别
     * display:none：不为隐藏的对象保留其物理空间，相当于此元素不存在
@@ -85,7 +85,7 @@
         * flex布局(CSS3方法)
 <br>
 
-## HTML5　+　CSS3
+# HTML5　+　CSS3
 * HTML5 是下一代的HTML，将成为HTML、XHTML以及 HTML　DOM的新标准。<br>
 CSS3用于控制网页的样式和布局。CSS3 是最新的 CSS 标准。
 <br>
