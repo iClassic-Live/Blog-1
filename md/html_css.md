@@ -127,10 +127,10 @@ CSS3用于控制网页的样式和布局。CSS3 是最新的 CSS 标准。
         * scale()：缩放元素的尺寸；两个参数：水平放大倍数，垂直放大倍数
         * skew()：元素翻转角度；两个参数：X轴翻转，Y轴翻转
         * matrix()：所有2D转换的组合；六个参数：水平倍数，X翻转值，Y翻转值，垂直倍数，水平位移，垂直位移
-    * 3D转换：transform
-        * translateX(),translateY(),translateZ(),translate3d()
-        * rotateX()，rotateY()，rotateY()，rotate3d()
-        * scaleX()，scaleY()，scaleZ()，scale3d()
+    * 3D转换：transform　含义参考2D转换
+        * translate3d()：translateX(),translateY(),translateZ()
+        * rotate3d()：rotateX()，rotateY()，rotateY()
+        * scale3d()：scaleX()，scaleY()，scaleZ()
     * 过渡：transition：四个参数，如下
         * transition-property：过渡的属性名
         * transition-duration：过渡花费的时间。默认是 0。
