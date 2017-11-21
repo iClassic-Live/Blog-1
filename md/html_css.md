@@ -1,3 +1,4 @@
+##HTML+CSS
 * HTML、XML和XHTML的联系与区别
     * 定义：都是标准通用标记语言的一个子集。
         * HTML被设计用来显示数据，其焦点是数据的外观
@@ -82,6 +83,71 @@
         * 使用position定位实现，即左右两栏使用position进行定位，中间栏使用margin进行定位
         * 圣杯布局，此处不详细写了
         * flex布局(CSS3方法)
-        <br>
+<br>
+
+##HTML5　+　CSS3
+* HTML5 是下一代的HTML，将成为HTML、XHTML以及 HTML　DOM的新标准。<br>
+CSS3用于控制网页的样式和布局。CSS3 是最新的 CSS 标准。
+<br>
+
+* HTML5的新特性
+    * 用于绘画的canvas和svg
+    * 用于媒介回放的 `video` (支持ogg，MPEG4，WebM格式文件)和 `audio`(支持ogg,mp3,wav格式文件)标签
+    * 对本地离线存储的更好的支持
+    * 更好的语义化标签，如 article、footer、header、nav、section
+    * 事件的拖放特性：drag
+    * 地理位置定位API：Geolocation
+<br>
+
+* Canvas与SVG
+    * SVG：利用标签进行构图。它每个元素都是可用的。可以为某个元素附加JS处理。若SVG对象的属性发生变化，浏览器则自动重现图形。
+    * SVG教程（来自W3C）　　＝＞　　[传送门](http://www.w3school.com.cn/svg/index.asp)
+    * Canvas：通过JS来绘制2D图形。而且一旦图形被绘制完成，就不会继续得到浏览器的关注。如果其位置发生变化，那么整个场景也需要重新绘制，包括任何或许已被图形覆盖的对象。适合图像密集型的游戏，其中的许多对象会被频繁重绘
+    * Canvas参考手册（来自W3C）　　＝＞　　[传送门](http://www.w3school.com.cn/tags/html_ref_canvas.asp)
+<br>
+
+* CSS3属性（本人碰到的面试当中居然有问参数个数及参数值，所以一起整理出来）
+    * 边框：
+        * border-radius：边框圆角；参数：一个参数，则四个角的弧度相同；两个参数：左上右下，左下右上；四个参数分别对应：左上，右上，右下，左下；
+        * box-shadow：盒阴影；六个参数：水平位移，垂直位移，模糊度，阴影尺寸，阴影颜色，阴影投射方向（outset(默认)，inset）
+        * border-image：边框图片；五个参数：图片路径，边框向内偏移，边框宽度，图像超出边框的量，图像边框放置方式（平铺(repeated)、铺满(rounded)或拉伸(stretched)）
+    * 背景：
+        * background-size：背景尺寸；两个参数：宽度，高度
+        * background-origin：背景图片的定位区域；一个参数：border-box；padding-box；content-box；
+        * background-clip：背景的绘制区域；参数同上
+    * 文本：
+        * text-shadow：文本阴影；四个参数：水平阴影，垂直阴影，模糊距离，阴影颜色
+        * text-wrap：文本换行规则；一个参数：normal(默认)；none(不换行)
+        * word-wrap：长单词词进行分割并换行；一个参数：break-word(在长单词或URL地址内部进行换行) 
+    * 字体：
+        * @font-face：font-family：字体名字；src：字体路径；
+    * 2D转换：transform
+        * translate()：从当前位置移动；两个参数：水平位移，垂直位移
+        * rotate()：元素顺时针旋转；一个参数：角度值
+        * scale()：缩放元素的尺寸；两个参数：水平放大倍数，垂直放大倍数
+        * skew()：元素翻转角度；两个参数：X轴翻转，Y轴翻转
+        * matrix()：所有2D转换的组合；六个参数：水平倍数，X翻转值，Y翻转值，垂直倍数，水平位移，垂直位移
+    * 3D转换：transform
+        * translateX(),translateY(),translateZ(),translate3d()
+        * rotateX()，rotateY()，rotateY()，rotate3d()
+        * scaleX()，scaleY()，scaleZ()，scale3d()
+    * 过渡：transition：四个参数，如下
+        * transition-property：过渡的属性名
+        * transition-duration：过渡花费的时间。默认是 0。
+        * transition-timing-function：过渡的时间曲线。linear(速度不变)；ease(由慢变快又变慢)
+        * transition-delay：过渡的延迟时间
+    * 动画：animation：六个参数，如下
+        * @keyframes+自定义名称：大括号内可为from/to，或变化的百分比
+        * animation-duration：动画完成时间
+        * animation-timing-function：动画速度曲线。
+        * animation-delay：动画何时开始
+        * animation-iteration-count：动画播放次数。默认是 1，无限播放是infinite
+        * animation-direction：动画是否在下次逆向播放。默认normal，逆向播放alternate
+    * 多列：
+        * column-count：分隔的列数
+        * column-gap：列间间隔
+        * column-width：列的宽度。
+        * column-span：元素横跨的列数（可用于做报纸的标题）；横跨一列是1，横跨所有列是all
+<br>
 
 …………未完待续
